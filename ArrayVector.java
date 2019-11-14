@@ -24,7 +24,7 @@ public class ArrayVector {
         v.addElement("quiz"); 
         v.addElement("code"); 
   
-                                                           // traversing elements using Enumeration 
+                                                           //    
         System.out.println("\nVector elements are:"); 
         Enumeration e = v.elements(); 
         while (e.hasMoreElements()) 
