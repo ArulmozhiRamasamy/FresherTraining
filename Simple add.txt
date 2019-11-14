@@ -1,8 +1,8 @@
 public class simpleadd{
 public static void main(String[] args){
-int number1=0;
-int number2=1;
-int k=number1+number2;
+int i=2;                           // here we can be initial the value of i=2
+int j=3;                           // here we can be initial the value of j=3
+int k=i+j;                             // add the value as i+j
 System.out.println(k);
 }
 }
