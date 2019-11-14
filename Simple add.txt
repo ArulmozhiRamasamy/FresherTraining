@@ -1,7 +1,7 @@
 public class simpleadd{
 public static void main(String[] args){
-int i=2;
-int j=3;
+int i=5;
+int j=8;
 int k=i+j;
 System.out.println(k);
 }
