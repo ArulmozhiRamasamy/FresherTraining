@@ -1,6 +1,6 @@
 public class simpleadd{
 public static void main(String[] args){
-int i=2;                           // here we can be initial the value of i=2
+int i=0;                           // here we can be initial the value of i=2
 int j=3;                           // here we can be initial the value of j=3
 System.out.println(i+j);                             // add the value as i+j
 
