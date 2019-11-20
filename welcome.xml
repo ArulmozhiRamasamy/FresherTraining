@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:visibility="visible">
+
+
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/Username" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/password" />
+
+    <Space
+        android:layout_width="21dp"
+        android:layout_height="1dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="21dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal" />
+
+
+
+
+</LinearLayout>
