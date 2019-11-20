@@ -107,7 +107,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (edt1.getText().length() != 0) {
                     Num1 = Float.parseFloat(edt1.getText() + "");
-                    Num2 = Float.parseFloat(edt1.getText() + "");
                     Addition = true;
                     boolean decimal = false;
                     edt1.setText(edt1.getText() + "");
@@ -119,7 +118,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Num1 = Float.parseFloat(edt1.getText() + "");
-                Num2 = Float.parseFloat(edt1.getText() + "");
                 Subtract = true;
                 boolean decimal = false;
                 edt1.setText(edt1.getText() + "");
@@ -131,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Num1 = Float.parseFloat(edt1.getText() + "");
-                Num2 = Float.parseFloat(edt1.getText() + "");
                 Multiplication = true;
                 edt1.setText(null);
             }
@@ -141,7 +138,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Num1 = Float.parseFloat(edt1.getText() + "");
-                Num2 = Float.parseFloat(edt1.getText() + "");
                 Division = true;
                 edt1.setText(null);
             }
@@ -150,6 +146,9 @@ public class MainActivity extends AppCompatActivity {
         buttonequal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (Addition || Subtract || Multiplication || Division ) {
+                    Num2 = Float.parseFloat(edt1.getText() + "");
+                }
                 if (Addition) {
                     edt1.setText(Num1 + Num2 + "");
                     Addition = false;
