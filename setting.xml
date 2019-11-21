@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.optionmenubar.setting">
+
+    <item
+        android:id="@+id/profile"
+        android:orderInCategory="100"
+        android:title="profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/History"
+        android:orderInCategory="100"
+        android:title="History"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Help"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="never" />
+</menu>
